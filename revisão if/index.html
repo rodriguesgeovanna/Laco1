@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão IF</title>
+    <link rel="stylesheet" href="css/teste.css">
+</head>
+
+<body>
+    <h1>Revisão IF() - parte 1</h1>
+    <!-- Funções lógicas -->
+    <!-- 
+    verdadeiro ou falso ↓
+
+     IF(comparação){
+         parametro
+     }    
+       exemplo:
+       if("a"=="b"){
+        alert("A é igual a B")
+       }
+
+     WHILE()
+     DO WHILE()
+     SWITCH() ---CASE 
+     FOR()  
+     -->
+    <br><br>
+    <img id="imagem1">
+    <br><br>
+    <img id="imagem2">
+
+    <br><br><br>
+    <button onclick="sextou()">Clica em mim</button>
+
+</body>
+
+<script>
+    /* /*  if ("12" === 12) {
+         alert("O valor é diferente")
+     } else {
+         alert("O valor é igual")
+     } */
+
+
+    /* semafaro = prompt("Que cor está o semaforo?")
+
+    if(semafaro == "verde"){
+        alert("Pode atravessar");
+    }else {
+        alert("Vermelho, não atravesse");
+    }
+ */
+
+    /* /n quebra de linha */
+
+    /* semaforo = pormpt("Qual a cor do semaforo?");
+    if (semaforo == "verde") {
+        alert("verde")
+    } */
+
+
+    /* colaborador = prompt("Digite seu nome");
+    senha = prompt("Digite sua senha");
+
+    if(colaborador=="Geovanna" && senha=="12345678"){
+        alert("Olá, você está liberado\n"
+        +"Colaborador : "+colaborador+
+        "\nsenha:" +senha);
+    }else{
+        alert("Usuario inválido")
+    } */
+
+    /* Em um baile com 3 ambientes diferentes, temos que separar os convidados por idade, 
+    sendo que no 
+    ambiente 1 - somente com a idade >=18
+    ambiente 2 - somente com a idade entre 17 e 15 anos
+    ambiente 3 - com idade menor que 15 anos  */
+
+    /* idade = parseInt(prompt("Digite sua idade"));
+    if (idade >= 18) {
+        alert("Acesso liberado para o ambiente 1")
+    } else if (idade <18 && idade>=15) {
+        alert("Acesso liberado para o ambiente 2");
+    } else if (idade <15){
+        alert("Acesso liberado para o ambiente 3");
+    }
+ */
+
+
+
+    media = (5.25, 6.5, 7.8, 9.5, 8.7) / 5;
+
+    alert("Sua média:" + media.toFixed(3))
+
+    /* Usando recurso do DOM(document object Model) */
+
+    window.onload =
+        function carregaImagem() {
+            document.getElementById("imagem1").src = "img/if.png"
+            document.getElementById("imagem2").src = "img/bebe.jfif"
+        }
+
+
+    /* Criando uma finction() para mostrar mensagem */
+    
+    function sextou(){
+        alert("você clicou no botão e sextooooou")
+    };
+
+</script>
+
+</html>

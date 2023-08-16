@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 - Tipos Números</title>
+</head>
+
+<body>
+    <h1>Executando a funão calcSoma()</h1>
+</body>
+
+<script type="text/javascript">
+    /* Está função irá fazer um calculo com dois valores */
+    function calcSoma(z, y) {
+        resposta = z + y;
+        /* return alert("O resultado da soma : " + resposta) */
+    };
+
+    val1 = parseInt(prompt("Digite o valor 1"))
+    val2 = parseInt(prompt("Digite o valor 2"))
+    calcSoma(val1, val1)
+
+    /* console.log(calcSoma(4, 6)) */
+
+    /*                                                                               */
+
+    function calcMultiply(g, d) {
+        resposta = g * d;
+        /*  return alert("O resultado da sua soma é: " + resposta) */
+    };
+
+    g = parseInt(prompt("Digite o valor 1"))
+    d = parseInt(prompt("Digite o valor 2"))
+    calcSoma(g, d)
+    /* console.log(calcMultiply(10, 5)) */
+
+
+
+    /*------------------------------------------------------------------------------------------ */
+
+    function calcDivide(p, l) {
+        resposta = p / l;
+        return resposta
+    };
+
+    console.log(calcDivide(20, 10))
+
+    /*-----------------------------------------------------------------------------------------------*/
+
+    function calcSubtract(p, l) {
+        resposta = h - s;
+        return resposta
+    };
+
+
+    /*    function calcMedia(x1, x2, x3, x4, x5, x6, x7) {
+   
+           media = (x1 + x2 + x3 + x4 + x5 + x6) / 6;
+           if (media > 6) {
+               resposta = " Você foi aprovado"
+           } else {
+               resposta = " Você foi reprovado"
+           }
+   
+           return alert(nome + " Sua média é : " + media + resposta)
+       }
+   
+   
+    */
+
+
+    /* console.log(calcSubtract(50, 10)) */
+
+
+    /*  nota1 = parseFloat(prompt("Digite a sua nota 1"))
+     nota2 = parseFloat(prompt("Digite a sua nota 2"))
+     nota3 = parseFloat(prompt("Digite a sua nota 3"))
+     nota4 = parseFloat(prompt("Digite a sua nota 4"))
+     nota5 = parseFloat(prompt("Digite sua nota 5"))
+     nota6 = parseFloat(prompt("Digite sua nota 6"))
+     nome = prompt("Digite seu nome")
+ 
+     calcMedia(nota1, nota2, nota3, nota4, nota5, nota6, nome)
+  */
+
+
+
+
+    /* 
+        function calcMulti(m1, m2, m3, m4, m5, m6, m7) {
+    
+            media = (m1 + m2 + m3 + m4 + m5 + m6 + m7) / 6;
+            if (media > 6) {
+                resultado = "Você foi aprovado com sucesso!"
+            } else {
+                resultado = "Sinto muito, você foi reprovado!"
+            }
+    
+            return alert(nome + "Sua média é : " + media + resultado)
+        }
+    
+    
+    
+        test1 = parseFloat(prompt("Digite a sua nota 1"))
+        test2 = parseFloat(prompt("Digite a sua nota 2"))
+        test3 = parseFloat(prompt("Digite sua nota 3"))
+        test4 = parseFloat(prompt("Digite sua nota 4"))
+        test5 = parseFloat(prompt("Digite sua nota 5"))
+        test6 = parseFloat(prompt("Digite sua nota 6"))
+        nome = parseFloat(prompt("Digite your name"))
+    
+        calcMulti(test1, test2, test3, test4, test5, test6, nome)
+     */
+
+
+
+    function validaCol(val1, val2) {
+
+        if (val1 == "Zé" && val2 == 12345678) {
+            autoriza = "Olá" + val1 + " Você está autorizado";
+        } else {
+            autoriza = "Senha ou usuário inválido" + val1 + "Desculpe"
+        }
+        return alert(autoriza);
+    }
+
+    val1 = prompt("digite seu nome");
+    val2 = parseInt(prompt("Digite sua senha"));
+
+    validaCol(val1, val2)
+
+    /* função que pegue uma senha com 8  de 1 a 8 digitos e o nome do usuario tem que ser Zé
+    dizer que se a senha não for de 1 a 8 e o nome dele não for Zé se não for ele não pode entrar */
+
+
+
+
+
+    /* criar função
+    5 notas tem que retornar a média */
+
+
+</script>
+
+</html>

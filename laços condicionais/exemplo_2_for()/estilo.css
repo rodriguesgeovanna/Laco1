@@ -1,0 +1,15 @@
+* {
+    background-image: url('img/numeros-de-0-a-9.jpg');
+}
+
+#resposta {
+    display: inline;
+    color: rgb(145, 4, 4);
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}

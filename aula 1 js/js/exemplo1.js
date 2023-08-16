@@ -1,0 +1,1 @@
+console.log("Hello World do exemplo1.js")
